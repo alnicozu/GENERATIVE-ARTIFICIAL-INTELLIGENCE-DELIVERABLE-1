@@ -1,8 +1,11 @@
 import json
 import numpy as np
 import requests
+import warnings
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+
+warnings.filterwarnings("ignore", category=RuntimeWarning)
 
 print("Iniciando Asistente RAG UdeC (Optimizado)...")
 
@@ -32,7 +35,7 @@ def buscar_mejores_parrafos(pregunta, top_k=5):
 
 def preguntar_a_qwen(pregunta, contexto):
     prompt = f"""Eres el asistente oficial de la Universidad de Concepción.
-REGLA: Responde basándote ÚNICAMENTE en estos fragmentos del reglamento. Si la respuesta no está, di "No lo sé".
+REGLA: Responde basándote ÚNICAMENTE en estos fragmentos del reglamento. Si la respuesta no está, di literalmente: "No está en la normativa".
 
 REGLAMENTOS:
 {contexto}

@@ -1,0 +1,101 @@
+id,categoria,pregunta,gold_dato,gold_fuente,prediccion_rag
+1,factual,¿Cuál es la nota mínima para aprobar una asignatura en la Facultad de Ingeniería?,"4,0","Art. 11, RI-FI","DATO: 4,0
+CITA: [Art. 11°, RI-FI]"
+2,factual,¿Cuántas evaluaciones sumativas como mínimo debe tener una asignatura?,al menos 3 (tres),"Art. 11, RI-FI","DATO: 3
+CITA: Art. 11°, RI-FI"
+3,factual,¿A cuántas evaluaciones de recuperación tiene derecho el estudiante por asignatura?,una (1),"Art. 12, RI-FI","DATO: 1
+CITA: Art. 12°, RI-FI"
+4,factual,¿En qué escala se expresa la nota final de una asignatura?,"escala oficial de 1 a 7, con un decimal","Art. 23, RG","DATO: La nota final de una asignatura se expresa en la escala numérica oficial de 1 a 7 hasta con un decimal de aproximación.
+CITA: [Art. 23, RG]"
+5,factual,¿Cuál es la actividad final de titulación en las carreras de Ingeniería?,la Memoria de Título,"Art. 29, RI-FI","DATO: Memoria de Título
+CITA: [Art. 29°, RI-FI]"
+6,factual,¿Con cuánta anticipación mínima deben comunicarse las evaluaciones a los estudiantes?,al menos una semana,"Art. 10, RI-FI","DATO: 1 semana
+CITA: [Art. 10°, RI-FI]"
+7,factual,¿Quién resuelve en primera instancia una solicitud de continuación de estudios?,el Comité de Docencia y Asuntos Estudiantiles,"Art. 16, RI-FI","DATO: El Comité de Docencia y Asuntos Estudiantiles
+CITA: Art. 16°, RI-FI"
+8,factual,¿La renuncia a la carrera es revocable?,"No, es irrevocable","Art. 26, RI-FI","DATO: No está en la normativa
+CITA: Ninguna"
+9,factual,¿Cuántos períodos lectivos ordinarios tiene el año académico y cuánto duran?,"dos, de 19 semanas cada uno","Art. 16, RG","DATO: El año académico comprenderá dos Períodos Lectivos Ordinarios de diecinueve semanas cada uno.
+CITA: [Art. 16, RG]"
+10,factual,¿Los estudiantes de Primer Año Común pueden convalidar asignaturas?,No,"Art. 22, RI-FI","DATO: No
+CITA: [Art. 22°, RI-FI]"
+11,numerica,¿Cuál es el mínimo de créditos que debo inscribir por período lectivo ordinario en Ingeniería?,8 créditos (igual o superior a 8),"Art. 8, RI-FI","DATO: 8
+CITA: Art. 8°, RI-FI"
+12,numerica,¿Con menos de cuántos créditos aprobados al término del segundo semestre quedo en baja académica?,menos de 15 créditos,"Art. 14 a), RI-FI","DATO: 15
+CITA: Art. 14°, RI-FI"
+13,numerica,¿Bajo qué promedio de créditos aprobados por semestre (desde el 4º) se cae en baja académica?,inferior a 10 créditos semestrales,"Art. 14 b), RI-FI","DATO: 10 créditos semestrales
+CITA: [Art. 28°, RG]"
+14,numerica,¿Cuál es la asistencia mínima máxima que un profesor puede exigir en clases teóricas y prácticas?,80%,"Art. 13, RI-FI","DATO: 100%
+CITA: Art. 13°, RI-FI"
+15,numerica,¿Qué calificación mínima se exige para convalidar una asignatura?,"4,5","Art. 21, RI-FI","DATO: 4,5
+CITA: Art. 21°, RI-FI"
+16,numerica,"¿Durante cuántas semanas iniciales se puede solicitar convalidación, revalidación o reconocimiento?",las 4 primeras semanas,"Art. 22, RI-FI","DATO: 4
+CITA: Art. 22°, RI-FI"
+17,numerica,¿Dentro de cuántos días se puede solicitar el reconocimiento de asignaturas?,los primeros 30 días,"Art. 23, RI-FI","DATO: 30 días
+CITA: Ninguna"
+18,numerica,"Si suspendí más de 3 años y solo me faltaba la Memoria, ¿cuántos créditos adicionales máximo debo cursar?",un máximo de 36 créditos,"Art. 31, RI-FI","DATO: 36
+CITA: Art. 31°, RI-FI"
+19,numerica,¿Cuántas semanas dura cada período lectivo ordinario (semestre)?,19 semanas,"Art. 16, RG","DATO: 19 semanas
+CITA: [Art. 16, RG]"
+20,numerica,¿Cuál es el plazo (en días hábiles) para regularizar una evaluación no rendida por causa justificada?,3 días hábiles,"Art. 26, RG","DATO: 3
+CITA: [Art. 26, RG]"
+21,condicional,"Si vengo de otra universidad y quiero ingresar a Ingeniería, ¿qué promedio necesito? ¿Y para cambio dentro de Ingeniería?","4,5 desde otra universidad/facultad; 4,2 para cambio dentro de Ingeniería","Art. 17 y Art. 18, RI-FI","DATO: 4,5 y 4,2
+CITA: [Art. 17°, RI-FI] y [Art. 18°, RI-FI]"
+22,condicional,¿Qué promedio mínimo se exige para cursar una segunda carrera de forma simultánea?,"5,0","Art. 19, RI-FI","DATO: 5,0
+CITA: [Art. 19°, RI-FI]"
+23,condicional,¿En qué caso NO se puede revalidar una asignatura?,si fue previamente cursada y reprobada,"Art. 20, RI-FI","DATO: No se podrá revalidar una asignatura que haya sido previamente cursada y reprobada en el Plan de Estudio.
+CITA: [Art. 20°, RI-FI]"
+24,condicional,"Si repruebo por segunda vez una misma asignatura obligatoria, ¿qué ocurre?","baja académica, salvo que la haya aprobado en el PLEV o esté en primer año","Art. 14 c), RI-FI","DATO: Si repruebo por segunda vez una misma asignatura obligatoria, quedará en situación de Baja Académica, salvo que ésta haya sido aprobada en el PLEV del año académico correspondiente, o que se trate de estudiantes que se encuentren en el primer año de permanencia en la carrera.
+CITA: [Art. 14°, RI-FI]"
+25,condicional,"Al modificar la inscripción, ¿qué asignaturas NO puedo eliminar?",las atrasadas y las obligatorias reprobadas (prioridades a y b del Art. 7),"Art. 9, RI-FI","DATO: a) y b)
+CITA: Art. 9°, RI-FI"
+26,condicional,"Si suspendí mis estudios, ¿qué debo hacer para volver?",solicitar la reincorporación a la Vicedecanatura,"Art. 27, RI-FI","DATO: Deberás solicitar tu reincorporación al Vicedecano presentando los antecedentes oficiales que demuestren que los impedimentos que justificaron la suspensión ya no existen.
+CITA: Art. 33, RG"
+27,condicional,¿Qué documentos requiere la solicitud de suspensión de estudios?,certificado de la DAFE (sin deudas) y de la Dirección de Bibliotecas,"Art. 25, RI-FI","DATO: a) Certificado de la División de Asistencia Financiera al Estudiante en que conste que el alumno no tiene deudas con la universidad por concepto de aranceles y préstamos o que el pago de dichas deudas ha sido debidamente garantizado. b) Certificado de la Dirección de Bibliotecas en que conste que no adeuda material bibliográfico.
+CITA: [Art. 35°, RG] [Art. 25°, RI-FI]"
+28,condicional,"Si estando habilitado no inscribo asignaturas en el período, ¿qué pasa?",pierdo el derecho a continuar y la calidad de alumno (Baja por no Inscripción),"Art. 29, RG","DATO: Los alumnos que estando habilitados para inscribir asignaturas no lo hagan dentro del periodo correspondiente perderán el derecho a continuar estudios como también la calidad de alumno de pregrado de la Universidad de Concepción, a menos que en el periodo lectivo anterior hayan inscrito una u más asignaturas anuales.
+CITA: [Art. 29°, RG]"
+29,condicional,"Si no me presento a una evaluación por causa justificada, ¿qué puedo hacer?",solicitar regularizar en un máximo de 3 días hábiles,"Art. 26, RG","DATO: Solicitar al profesor encargado de la asignatura regularizar su situación en un plazo máximo de tres días hábiles
+CITA: [Art. 26, RG]"
+30,condicional,"¿Cuánta asistencia puede exigir un profesor en un laboratorio, taller o salida a terreno?",hasta un 100%,"Art. 13, RI-FI","DATO: Un 100%
+CITA: Art. 13°, RI-FI"
+31,cruce,"Si el Reglamento Interno de Ingeniería contradice al Reglamento General de Docencia, ¿cuál prevalece?",prevalece el Reglamento General (y las Normas de Ingreso),"Art. 34, RI-FI","DATO: Artículo 34°, RI-FI
+CITA: Art. 34°, RI-FI"
+32,cruce,Quiero modificar las asignaturas inscritas este segundo semestre 2026. ¿Hasta qué fecha?,hasta el 04 de septiembre de 2026,"CAL 2º sem 2026 (Art. 9, RI-FI)","DATO: 04 de septiembre
+CITA: [Calendario 2026, Segundo Semestre 2026]: Modificación de asignaturas – fecha límite — 04 de septiembre"
+33,cruce,¿Hasta qué fecha se pueden modificar asignaturas en el primer semestre 2026?,hasta el 02 de abril de 2026,"CAL 1er sem 2026 (Art. 9, RI-FI)","DATO: 02 de abril
+CITA: [Calendario 2026, Primer Semestre 2026]"
+34,cruce,¿Tengo derecho a suspender estudios y hasta cuándo puedo hacerlo?,"sí; dentro de los plazos del calendario, a más tardar 4 semanas antes del término",Art. 25 RI-FI + Art. 31 RG,"DATO: No está en la normativa
+CITA: Ninguna"
+35,cruce,¿Cuándo inician las clases del segundo semestre 2026?,10 de agosto de 2026,CAL 2º sem 2026,"DATO: 10 de agosto
+CITA: [Calendario 2026, Segundo Semestre 2026]"
+36,cruce,¿En qué fechas se inscriben las asignaturas del segundo semestre 2026 y cuál es el mínimo de créditos?,inscripción 03–07 de agosto de 2026; mínimo 8 créditos,"CAL 2º sem 2026 + Art. 8, RI-FI","DATO: No está en la normativa
+CITA: Ninguna"
+37,cruce,¿Cuándo termina el segundo semestre 2026 (término de clases)?,11 de diciembre de 2026,CAL 2º sem 2026,"DATO: 11 de diciembre
+CITA: [Calendario 2026, Segundo Semestre 2026]"
+38,cruce,"La escala de notas del Reglamento General, ¿se aplica en Ingeniería, y cuál es la nota de aprobación?","sí, escala 1 a 7 (Art. 23, RG); se aprueba con 4,0 (Art. 11, RI-FI)",Art. 23 RG + Art. 11 RI-FI,"DATO: En el Reglamento General se aplica en Ingeniería y la nota de aprobación es 4,0
+CITA: [Art. 23, RG]"
+39,cruce,¿Cuándo son las Evaluaciones de Recuperación del segundo semestre 2026?,14–23 de diciembre de 2026,CAL 2º sem 2026 (Art. 12 RI-FI),"DATO: 14 – 23 de diciembre
+CITA: [Calendario 2026, Segundo Semestre 2026]"
+40,cruce,¿Qué reglamento rige la Memoria de Título y cuánto pondera en la nota de titulación?,la rige el Reglamento de Memoria de Título de la FI (Art. 29); pondera un 40% (Art. 30),"Art. 29 y Art. 30, RI-FI","DATO: Artículo 29°, RI-FI
+CITA: 29"
+41,abstencion,¿Qué establece el Artículo 90 del Reglamento Interno de Docencia de Pregrado de Ingeniería?,"El artículo no existe: el RI-FI tiene solo 35 artículos -> debe indicarlo, no inventar",dato inexistente (RI-FI llega al Art. 35),"DATO: No está en la normativa
+CITA: Ninguna"
+42,abstencion,¿Qué requisitos fija el Artículo 36 del Reglamento Interno de Docencia de Pregrado de Ingeniería?,El artículo no existe: el reglamento termina en el Art. 35 -> debe indicarlo,dato inexistente (RI-FI llega al Art. 35),"DATO: No está en la normativa
+CITA: Ninguna"
+43,abstencion,¿Qué dispone el Artículo 100 del Reglamento General de Docencia de Pregrado?,El artículo no existe: el RG llega hasta el Art. 60 -> debe indicarlo,dato inexistente (RG llega al Art. 60),"DATO: No está en la normativa
+CITA: Ninguna"
+44,abstencion,¿Qué señala el Artículo 70 del Reglamento General de Docencia de Pregrado?,El artículo no existe: el RG llega hasta el Art. 60 -> debe indicarlo,dato inexistente (RG llega al Art. 60),"DATO: No está en la normativa
+CITA: Ninguna"
+45,abstencion,¿Qué dice el inciso d) del Artículo 14 del RI-FI sobre las causales de baja académica?,"No existe el inciso d): el Art. 14 solo tiene a), b) y c) -> debe indicarlo",premisa falsa (Art. 14 solo a-c),"DATO: No está en la normativa
+CITA: Ninguna"
+46,abstencion,¿Qué establece el inciso c) del Artículo 25 del RI-FI sobre los documentos para suspender estudios?,No existe el inciso c): el Art. 25 solo tiene a) y b) -> debe indicarlo,premisa falsa (Art. 25 solo a-b),"DATO: No está en la normativa
+CITA: Ninguna"
+47,abstencion,"Además del mínimo de créditos, ¿cuál es el número máximo de créditos que fija el Artículo 8 del RI-FI para inscribir por semestre?","El Art. 8 no fija un máximo, solo un mínimo (8) -> debe indicarlo",premisa falsa (Art. 8 solo fija mínimo),"DATO: No está en la normativa
+CITA: Ninguna"
+48,abstencion,¿Cuál es la nota mínima que fija el Artículo 12 del RI-FI para la Evaluación de Recuperación?,El Art. 12 no fija una nota mínima; solo otorga el derecho a la recuperación -> debe indicarlo,premisa falsa (Art. 12 no fija nota),"DATO: No está en la normativa
+CITA: Ninguna"
+49,abstencion,"Según el calendario de docencia 2026, ¿qué feriado nacional cae el 30 de septiembre?",No hay feriado el 30 de septiembre; el feriado de septiembre 2026 es el día 18 -> debe indicarlo,dato inexistente (CAL 2026),"DATO: No está en la normativa
+CITA: Ninguna"
+50,abstencion,"El Artículo 19 del RI-FI exige promedio 5,0 para una segunda carrera simultánea; ¿qué promedio exige ese artículo para una tercera carrera simultánea?",El Art. 19 no contempla una tercera carrera simultánea -> debe indicarlo,premisa falsa (Art. 19 no lo contempla),"DATO: No está en la normativa
+CITA: Ninguna"
